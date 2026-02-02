@@ -1,0 +1,18 @@
+{
+  "name": "@darwin/shared",
+  "version": "1.0.0",
+  "description": "Shared code for Darwin Principle mobile and web apps",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
